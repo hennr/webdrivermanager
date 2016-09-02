@@ -20,3 +20,6 @@ before_install:
 
 install:
     - mvn -DheadlessEnvironment=true clean verify
+
+script:
+    - /bin/true
